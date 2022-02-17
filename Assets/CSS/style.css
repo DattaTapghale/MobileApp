@@ -1,0 +1,372 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	}
+/*helper class*/
+.text-center{
+	text-align:center;
+}
+.text-right{
+	text-align:right;
+}
+	
+a:link,
+a:hover,
+a:focus,
+a:active{
+	text-decoration:none;
+}
+.container{
+	width:1200px;
+	margin:0 auto;
+}
+.row,
+.row::after,
+.row::before{
+	clear:both;
+	display:table;
+	width:100%;
+}
+.row{
+	margin-left:-15px;
+	margin-right:-15px;
+}
+.row >:first-child{
+	padding-left:0px;
+}
+.row >:last-child{
+	padding-left:0px;
+}
+.mt-145{
+	margin-top:145px;
+}
+.mr-10{
+	margin-right:10px;
+}
+.mb-12{
+	margin-bottom:12px;
+}
+.mb-25{
+	margin-bottom:25px;
+}
+.mb-27{
+	margin-bottom:27px;
+}
+.mb-35{
+	margin-bottom:35px;
+}
+.mb-40{
+	margin-bottom:40px
+}
+.mb-45{
+	margin-bottom:45px;
+}
+.mb-50{
+	margin-bottom:50px;
+}
+.mb-55{
+	margin-bottom:55px;
+}
+.mb-60{
+	margin-bottom:60px;
+}
+.mb-65{
+	margin-bottom:65px;
+}
+.mb-70{
+	margin-bottom:70px;
+}
+.mt-110{
+	margin-top:110px;
+}
+.col4,.col5,.col6,.col7.col8,.col12{
+	float:left;
+	padding:0px 15px;
+}
+.col8{
+	width:calc(800% / 12);
+}
+.col4{
+	width:calc(100% / 3);
+}
+.col12{
+	width:calc(1200% / 12);
+}
+.col5{
+	width:calc(500% / 12);
+}
+.col6{
+	width:50%;
+}
+/*------------hero Section CSS Starts----------------------------*/
+.hero-Section{
+	background-image: linear-gradient(rgb(218, 45, 51, 0.5), rgb(218, 45, 51, 0.5)),url(../Images/heroimg.jpg);
+    background-size: cover;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    padding:47px 0 65px 0;
+    overflow-y:hidden;
+}
+.navbar li{
+    display: inline-block;
+    margin-left: 20px;
+    position: relative;
+}
+.navbar li a {
+    display:inline-block;
+    font-size:16px;
+    font-weight:bold;
+    color:#fff;
+    padding:10px;
+    text-transform:uppercase;
+	position:relative;
+	font-family: 'Montserrat', sans-serif;
+}
+.navbar li a::after{
+	content:'';
+	height:2px;
+	width:0px;
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	background-color:#fff;
+	transition:all .5s ease-in-out;
+}
+.navbar li a:hover::after{
+	width:100%;
+}
+	
+.herosec-Info h1{
+	font-size:52px;
+    color:#fff;
+    text-transform:uppercase;
+	font-family: 'Montserrat', sans-serif;
+}
+.herosec-Info p{
+	font-size:36px;
+    color:#fff;
+	font-family: 'Open Sans', sans-serif;
+}
+.hero-btn{
+	background-color: #282828;
+    border-radius: 50px;
+    padding: 10px 52px 10px 36px;
+    font-size: 17px;
+    color: #fff;
+    text-transform: uppercase;
+    border: 2px solid #282828;
+    cursor: pointer;
+	transition:all 1s ease-in-out;
+}
+.hero-btn:hover{
+	background-color:#fff;
+	color:#282828;
+}
+	
+.hero-btn i{
+    font-size:46px;
+    margin-right:20px;
+    vertical-align:middle;
+}
+.position-Rel{
+	position:relative;
+}
+.position-Abs{
+	position:absolute;
+	right:0px;
+	top:190px;
+}
+/*------------hero Section CSS Ends----------------------------*/
+
+
+/*------------app-Features Section CSS Starts----------------------------*/
+.app-Features{
+	padding:87px 0 108px 0;
+}
+.appfeature-Info h1{
+	font-size:52px;
+	color:#8a8a8a;
+	text-transform:uppercase;
+	font-family: 'Montserrat', sans-serif;
+	/*font-family: 'Open Sans', sans-serif;
+	font-family: 'Playfair Display', serif;
+	font-family: 'PT Sans', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;*/
+}
+.appfeature-Info p{
+	font-size:27px;
+	color:#3a3a3a;
+	font-family: 'Open Sans', sans-serif;
+	/*font-family: 'Playfair Display', serif;
+	font-family: 'PT Sans', sans-serif;*/
+}
+.thumb-Info h1{
+	font-size:24px;
+	color:#1a1a1a;
+	text-transform:uppercase;
+	font-family: 'Montserrat', sans-serif;
+}
+.thumb-Info p{
+	font-size:29px;
+	color:#1a1a1a;
+}
+.thumb-list li{
+	display:inline-block;
+	vertical-align:top;
+}
+	
+/*------------app-Features Section CSS Ends----------------------------*/
+
+
+/*------------redNose Section CSS Starts----------------------------*/
+.redNose{
+	background-image:url("../Images/rednose2.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	background-color:#d6dddb;
+	padding:200px 0 172px 0;
+}
+.redNose-Info{
+	width:calc(1100% / 12);
+}
+.redNose-Info h1{
+	font-size:52px;
+	text-transform:uppercase;
+	color:#ffffff;
+}
+.color-Red{
+	color:#f45150;
+}
+.redNose-Info p{
+	font-size:31px;
+	color:#585858;
+	padding-right:calc(556% / 12);
+}
+.redNose-Info button{
+	font-size:16px;
+	color:#fff;
+	padding:20px 25px;
+	text-transform:uppercase;
+	background-color:#d9332d;
+	border:0px;
+	border-radius:30px;
+	cursor:pointer;
+	margin-left:30px;
+	transition:all 1s ease-in-out;
+}
+.redNose-Info button:hover{
+	color:#d9332d;
+	background-color:#fff;
+}
+}
+.rednose-Img img{
+	width:100%;
+}
+/*------------redNose Section CSS Ends----------------------------*/
+
+
+/*------------footer Section CSS starts----------------------------*/
+.footer{
+	background-color:#2e2e38;
+	padding:120px 0 150px 0;
+}
+.logo a{
+	font-size:52px;
+	color:#fff;
+}
+.footer-Info h1{
+	font-size:20px;
+	color:#fff;
+}
+.thum-Info{
+	font-size:16.5px;
+	color:#fff;
+	padding-top:5px;
+	padding-left:14px;
+}
+.footer-Info2{
+	width:75%;
+}
+.footer-Info2 h1{
+	font-size:20px;
+	color:#fff;
+}
+.footer-Info2 h2{
+	font-size:14px;
+	color:#fff;
+}
+.footer-Info2 h3{
+	font-size:11px;
+	color:#fff;
+}
+.footer-Info2 p{
+	font-size:16.5px;
+	color:#fff;
+}
+.footer-Info2 h4 a{
+	font-size:14px;
+	color:#fff;
+}
+.footer-Info3{
+	width:calc(1050% / 12);
+}
+.footer-Info3 h1{
+	font-size:20px;
+	color:#fff;
+}
+.footer-Info3 p{
+	font-size:19px;
+	color:#fff;
+}
+/*------------footer Section CSS Ends----------------------------*/
+
+
+/*------------Sub-footer Section CSS Starts----------------------------*/
+.sub-Footer{
+	padding:45px 0 40px 0;
+	background-color:#d7dedc;
+}
+li{
+	list-style:none;
+	display:inline-block;
+}
+.copyright li,.copyright li a{
+	font-size:25.46px;
+	color:#000;
+}
+.copyright li a{
+	padding:0 20px;
+}
+.copyright>:first-child{
+	padding-right:20px;
+}
+.footer-Brandicons{
+	display:inline-block;
+}
+.footer-Brandicons li{
+	margin:0 15px;
+}
+.footer-Brandicons li a{
+	font-size:30px;
+	padding:0 5px;
+}
+i.facebook{
+	color:#4963a2;
+}
+i.dribble{
+	color:#da397a;
+}
+i.tumblir{
+	color:#81dde0;
+}
+	
+
+
+
+
+
+
+
+/*------------Sub-footer Section CSS Ends----------------------------*/
